@@ -24,17 +24,20 @@ namespace BroganAssignment1HoursWorked
 
                 if (!string.IsNullOrEmpty(firstNameTextBox.Text) && !string.IsNullOrEmpty(lastNameTextBox.Text) && !string.IsNullOrEmpty(hoursWorkedTextBox.Text))
                 {
+                    displayLabel.ForeColor = System.Drawing.Color.Black;
                     displayLabel.Text = lastNameTextBox.Text + ", " + firstNameTextBox.Text +
                         "worked " + hoursWorked + " hours at $" + payPerHour +
                         " an hour for a total of $" + (hoursWorked * payPerHour);
                 }
                 else
                 {
+                    displayLabel.ForeColor = System.Drawing.Color.Red;
                     displayLabel.Text = "Please fill in every entry to see total pay.";
                 }
             }
             catch (Exception ex)
             {
+                displayLabel.ForeColor = System.Drawing.Color.Red;
                 displayLabel.Text = "Please input a number for the Hours Worked field.";
                 Console.WriteLine(ex.ToString());
             }
@@ -42,6 +45,7 @@ namespace BroganAssignment1HoursWorked
 
         private void clearButton_Click(object sender, EventArgs e)
         {
+            displayLabel.ForeColor = System.Drawing.Color.Black;
             firstNameTextBox.Text = string.Empty;
             lastNameTextBox.Text = string.Empty;
             hoursWorkedTextBox.Text = string.Empty;

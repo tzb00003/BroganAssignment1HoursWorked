@@ -111,10 +111,10 @@
             // 
             displayLabel.AutoSize = true;
             displayLabel.BorderStyle = BorderStyle.FixedSingle;
-            displayLabel.Location = new Point(24, 302);
+            displayLabel.Location = new Point(39, 294);
             displayLabel.Name = "displayLabel";
-            displayLabel.Padding = new Padding(350, 25, 350, 25);
-            displayLabel.Size = new Size(1112, 77);
+            displayLabel.Padding = new Padding(250, 25, 250, 25);
+            displayLabel.Size = new Size(912, 77);
             displayLabel.TabIndex = 8;
             displayLabel.Text = "Please insert required information to get total pay.";
             // 
