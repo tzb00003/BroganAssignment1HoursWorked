@@ -1,6 +1,6 @@
 ﻿namespace BroganAssignment1HoursWorked
 {
-    partial class hoursWorked
+    partial class Assignment1
     {
         /// <summary>
         ///  Required designer variable.
@@ -46,7 +46,7 @@
             firstNameLabel.Name = "firstNameLabel";
             firstNameLabel.Size = new Size(97, 25);
             firstNameLabel.TabIndex = 0;
-            firstNameLabel.Text = "First Name";
+            firstNameLabel.Text = "&First Name";
             // 
             // lastNameLabel
             // 
@@ -55,7 +55,7 @@
             lastNameLabel.Name = "lastNameLabel";
             lastNameLabel.Size = new Size(95, 25);
             lastNameLabel.TabIndex = 1;
-            lastNameLabel.Text = "Last Name";
+            lastNameLabel.Text = "&Last Name";
             // 
             // hoursWorkedLabel
             // 
@@ -64,7 +64,7 @@
             hoursWorkedLabel.Name = "hoursWorkedLabel";
             hoursWorkedLabel.Size = new Size(127, 25);
             hoursWorkedLabel.TabIndex = 2;
-            hoursWorkedLabel.Text = "Hours Worked";
+            hoursWorkedLabel.Text = "&Hours Worked";
             // 
             // firstNameTextBox
             // 
@@ -93,7 +93,7 @@
             summarizeButton.Name = "summarizeButton";
             summarizeButton.Size = new Size(142, 37);
             summarizeButton.TabIndex = 6;
-            summarizeButton.Text = "Summarize";
+            summarizeButton.Text = "&Summarize";
             summarizeButton.UseVisualStyleBackColor = true;
             summarizeButton.Click += summarizeButton_Click;
             // 
@@ -103,7 +103,7 @@
             clearButton.Name = "clearButton";
             clearButton.Size = new Size(142, 37);
             clearButton.TabIndex = 7;
-            clearButton.Text = "Clear";
+            clearButton.Text = "&Clear";
             clearButton.UseVisualStyleBackColor = true;
             clearButton.Click += clearButton_Click;
             // 
@@ -111,14 +111,16 @@
             // 
             displayLabel.AutoSize = true;
             displayLabel.BorderStyle = BorderStyle.FixedSingle;
-            displayLabel.Location = new Point(39, 294);
+            displayLabel.Location = new Point(88, 304);
+            displayLabel.MaximumSize = new Size(850, 200);
             displayLabel.Name = "displayLabel";
             displayLabel.Padding = new Padding(250, 25, 250, 25);
-            displayLabel.Size = new Size(912, 77);
+            displayLabel.Size = new Size(838, 102);
             displayLabel.TabIndex = 8;
             displayLabel.Text = "Please insert required information to get total pay.";
+            
             // 
-            // hoursWorked
+            // Assignment1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -132,7 +134,7 @@
             Controls.Add(hoursWorkedLabel);
             Controls.Add(lastNameLabel);
             Controls.Add(firstNameLabel);
-            Name = "hoursWorked";
+            Name = "Assignment1";
             Text = "Hours Worked";
             Load += HoursWorked_Load;
             ResumeLayout(false);
