@@ -8,12 +8,6 @@ namespace BroganAssignment1HoursWorked
         public Assignment1()
         {
             InitializeComponent();
-            
-
-
-
-
-
         }
 
         private void HoursWorked_Load(object sender, EventArgs e)
@@ -22,7 +16,7 @@ namespace BroganAssignment1HoursWorked
             firstNameLabel.UseMnemonic = true;
             firstNameTextBox.TabIndex = 1;
 
-            //lastNameLabel.UseMnemonic = true;
+            lastNameLabel.UseMnemonic = true;
             lastNameTextBox.TabIndex = 2;
 
             hoursWorkedLabel.UseMnemonic = true;
@@ -33,8 +27,6 @@ namespace BroganAssignment1HoursWorked
 
         private void summarizeButton_Click(object sender, EventArgs e)
         {
-           
-
                 if (!string.IsNullOrEmpty(firstNameTextBox.Text) && !string.IsNullOrEmpty(lastNameTextBox.Text) && !string.IsNullOrEmpty(hoursWorkedTextBox.Text))
                 {
                     try
