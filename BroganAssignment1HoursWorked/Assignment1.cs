@@ -57,7 +57,7 @@ namespace BroganAssignment1HoursWorked
             firstNameTextBox.Text = string.Empty;
             lastNameTextBox.Text = string.Empty;
             hoursWorkedTextBox.Text = string.Empty;
-            displayLabel.Text = "Please insert required information to get total pay.";
+            displayLabel.Text = "";
         }
     }
 }

@@ -115,10 +115,8 @@
             displayLabel.MaximumSize = new Size(850, 200);
             displayLabel.Name = "displayLabel";
             displayLabel.Padding = new Padding(250, 25, 250, 25);
-            displayLabel.Size = new Size(838, 102);
+            displayLabel.Size = new Size(502, 77);
             displayLabel.TabIndex = 8;
-            displayLabel.Text = "Please insert required information to get total pay.";
-            
             // 
             // Assignment1
             // 
